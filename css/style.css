@@ -379,6 +379,12 @@ footer a:hover .icon-label {
 	letter-spacing: 1px;
 }
 
+.portfolio-item.media {
+	background: url('../img/media-img.png') no-repeat;
+	height: 500px;
+	background-size: 100%;
+}
+
 .portfolio-item.dream {
 	background: url('../img/reverie-background.png') no-repeat;
 	background-size: 180%;
@@ -409,6 +415,13 @@ footer a:hover .icon-label {
 
 .portfolio-item.mancala h3, .portfolio-item.mancala h5, .portfolio-item.root h5, .portfolio-item.root h3 {
 	color: white;
+}
+
+.portfolio-item.media li {
+	color: var(--font-color);
+	font-size: 1.5vw;
+	background: rgb(239,218,214, 0.4);
+	font-weight: 900;
 }
 
 .portfolio-item:hover {
@@ -456,6 +469,10 @@ footer a:hover .icon-label {
 
 li {
 	font-size: .85em;
+}
+
+.media-list{
+	color: white;
 }
 
 .skills.grid {
@@ -1093,6 +1110,13 @@ div.section.project-nav {
 	}
 	div.section.project-nav {
 		margin: 30px auto 40px auto;
+	}
+	.portfolio-item.media {
+		background: url('../img/media-img.png') no-repeat;
+		background-size: 130%;
+	}
+	.portfolio-item.media li {
+		font-size: 2vw;
 	}
 }
 
