@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -25,21 +25,21 @@
 			<a href="#featured-projects" class="nav-desktop">Projects</a>
 			<a href="financial.html" class="nav-desktop">Financial Education</a>
 			<a href="#contact" class="nav-desktop">Contact</a>
-			<button class="hamburger hamburger--squeeze" type="button">
+			<button class="hamburger hamburger--squeeze" type="button" role="button" aria-label="Toggle menu" aria-controls="nav-responsive">
 				<span class="hamburger-box">
 					<span class="hamburger-inner"></span>
 				</span>
 			</button>
 		</div>
-		<div class="nav-responsive">
+		<div class="nav-responsive" id="nav-responsive">
 			<a href="#about" class="nav-desktop">About</a>
 			<a href="#featured-projects" class="nav-desktop">Projects</a>
 			<a href="#contact" class="nav-desktop">Contact</a>
 			<a href="financial.html" class="nav-desktop">Financial Education</a>
 			<a href="https://github.com/alison-codes" class="nav-contact" target="_blank"><i
-					class="fab fa-github fa-lg"></i></a>
+					class="fab fa-github fa-lg"></i><span class="sr-only">My profile on GitHub</span></a>
 			<a href="https://www.linkedin.com/in/alison-norris-cfp/" class="nav-contact" target="_blank"><i
-					class="fab fa-linkedin fa-lg"></i> </a>
+					class="fab fa-linkedin fa-lg"></i><span class="sr-only">My profile on LindedIn</span></a>
 		</div>
 	</nav>
 	<div class="header-background">
@@ -49,7 +49,7 @@
 		<div class="header-content">
 			<h1 class="header-name">Alison<br>Norris, CFP</h1><br>
 			<h4 class="header-subhead">Full Stack Developer</h4>
-			<a href="#about" class="green-arrow"><img src="img/arrow.png"></a>
+			<a href="#about" class="green-arrow"><img src="img/arrow.png" alt="Scroll down!"></a>
 		</div>
 	</header>
 
@@ -57,7 +57,7 @@
 	<div class="section" id="about">
 		<div class="flex-grid nowrap">
 			<div class="about-item headshot transition">
-				<img src="img/bw.png">
+				<img src="img/bw.png" alt="Profile photo">
 			</div>
 			<div class="about-item summary transition">
 				<h2>I’m a front-end leaning full stack developer with a deep appreciation for helping people achieve
@@ -127,33 +127,33 @@
 		<h2>Featured Projects</h2>
 		<hr>
 		<div class="flex-grid">
-			<div class="portfolio-item matchy transition"><a href="matchy.html" alt="Matchy"></a>
+			<div class="portfolio-item matchy transition"><a href="matchy.html"><span class="sr-only">Matchy</span></a>
 				<div class="portfolio-text">
 					<h3>Matchy</h3>
 					<h5>LinkedIn Hack for Economic Opportunity Winning Project</h5>
 				</div>
 			</div>
-			<div class="portfolio-item root transition"><a href="root.html" alt="ROOT Rideshare"></a>
+			<div class="portfolio-item root transition"><a href="root.html"><span class="sr-only">ROOT Rideshare</span></a>
 				<div class="portfolio-text">
 					<h3>ROOT Rideshare</h3>
 					<h5>Django | jQuery | Sass | PostgreSQL </h5>
 				</div>
 			</div>
-			<div class="portfolio-item wealth transition"><a href="wealth.html" alt="Wealth In Hand"></a>
+			<div class="portfolio-item wealth transition"><a href="wealth.html"><span class="sr-only">Wealth In Hand</span></a>
 				<div class="portfolio-text">
 					<h3>Wealth In Hand</h3>
 					<h5>MongoDB | Express | React | Node </h5>
 				</div>
 			</div>
 			<div class="portfolio-item dream transition">
-				<a href="reverie.html" alt="Reverie"></a>
+				<a href="reverie.html"><span class="sr-only">Reverie</span></a>
 				<div class="portfolio-text">
 					<h3>Reverie</h3>
 					<h5> MongoDB | Node | Data Visualization</h5>
 				</div>
 			</div>
 			<div class="portfolio-item mancala transition">
-				<a href="mancala.html" alt="Mancala"></a>
+				<a href="mancala.html"><span class="sr-only">Mancala</span></a>
 				<div class="portfolio-text">
 					<h3>Mancala</h3>
 					<h5>Javascript</h5>
